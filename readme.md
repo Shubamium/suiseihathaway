@@ -1,5 +1,5 @@
 # •~Hathaway Talalala | Senkou~•
-Cover by Suisei Hotcymatcy
+Cover by Suisei Hotcymatcy. 
 
 ## Lyrics :
 ```
