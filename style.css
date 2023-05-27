@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body{
@@ -14,8 +17,30 @@ video{
     height: 100vh;
     object-fit: cover;
     top: 0%;
+    transition: all 80ms;
+
 }
 
 video[data-vid="paused"]{
     opacity: 0;
+}
+video[data-vid="play"]{
+    opacity: 1;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#main h2{
+    font-size: 5rem;
+}
+
+#main h2 span{
+    color: rgb(104, 187, 255);
 }
