@@ -6,10 +6,16 @@
 
 body{
     overflow: hidden;
+    background:rgb(255, 255, 255);
 }
 video{
     position: absolute;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    top: 0%;
+}
+
+video[data-vid="paused"]{
+    opacity: 0;
 }
